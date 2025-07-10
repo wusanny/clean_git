@@ -2,6 +2,8 @@ version: 2
 
 models:
   - name: foo
+    config:
+      group: Yay
     columns:
       - name: id
         tests:
@@ -9,6 +11,8 @@ models:
               config: 
                 severity: warn
   - name: bar
+    config:
+      group: Yay
     columns:
       - name: id
         tests:
