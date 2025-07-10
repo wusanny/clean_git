@@ -1,6 +1,7 @@
 {{
     config(
-        severity='warn'
+        severity='warn',
+        group='Yay'
     )
 }}   
 -- This test fails if any amount is negative
