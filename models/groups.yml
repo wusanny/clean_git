@@ -1,0 +1,7 @@
+version: 2
+
+groups:
+  - name: Yay
+    owner:
+      name: "Haha Team"
+      email: sanny.prawira@dbtlabs.com
