@@ -1,7 +1,7 @@
 version: 2
 
 groups:
-  - name: Yay
+  - name: yay
     owner:
       name: "Haha Team"
       email: 
