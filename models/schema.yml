@@ -3,7 +3,7 @@ version: 2
 models:
   - name: foo
     config:
-      group: Yay
+      group: yay
     columns:
       - name: id
         tests:
@@ -12,7 +12,7 @@ models:
                 severity: warn
   - name: bar
     config:
-      group: Yay
+      group: yay
     columns:
       - name: id
         tests:
