@@ -1,3 +1,5 @@
-select 2 as id
-union
-select 3 as id
+with source as (
+    select * from {{ ref('foo') }}
+)
+
+select dob from source
