@@ -1,5 +1,1 @@
-select 1 as id
-union all
-select 1 as id
-union all
-select 1 as id
+create schema if not exists BANANA_JINJI
