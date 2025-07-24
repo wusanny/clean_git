@@ -1,5 +1,3 @@
--- models/slow_hash_model.sql
-
 {{ config(materialized = "table") }}
 
 with numbers as (
