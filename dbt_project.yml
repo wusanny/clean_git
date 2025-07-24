@@ -38,5 +38,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   baba_bobo:
-    +materalized: table
-    +schema: banana_jinji
+    mart:
+      +post-hook: 
+        - "{% if flags.WHICH in ('run', 'build') and env_var('DBT_TARGET_NAME') == 'DEV' %} {{ posthook(this) }} {% endif %}"
