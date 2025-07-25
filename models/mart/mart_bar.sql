@@ -1,1 +1,1 @@
-select 1 as id
+select dob from * {{ ref ('base_bar')}}
