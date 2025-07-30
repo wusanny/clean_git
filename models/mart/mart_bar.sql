@@ -1,0 +1,1 @@
+select dob from * {{ ref ('base_bar')}}

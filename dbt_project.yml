@@ -38,5 +38,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   baba_bobo:
-    +materalized: table
-    +schema: banana_jinji
+    mart:
