@@ -26,3 +26,13 @@ models:
           - name: po
             description: This is the new primary key
             data_type: int
+
+      - v: 1
+        config:
+          materialized: view
+          contract:
+            enforced: true
+        columns:
+          - name: mihi
+            description: This is the new primary key
+            data_type: int
