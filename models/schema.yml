@@ -1,0 +1,38 @@
+models:
+  - name: foo
+    description: This is basic foo
+    latest_version: 2
+    versions:
+      - v: 2
+        config:
+          materialized: table
+          contract:
+            enforced: true
+        columns:
+          - name: num_id
+            description: This is the new primary key
+            data_type: int
+            data_tests:
+              - unique:
+                  description: This test checks whether there are unexpected stuff
+                  config:
+                    store_failures: true  # always store failures
+      - v: 3
+        config:
+          materialized: view
+          contract:
+            enforced: true
+        columns:
+          - name: po
+            description: This is the new primary key
+            data_type: int
+
+      - v: 1
+        config:
+          materialized: view
+          contract:
+            enforced: true
+        columns:
+          - name: mihi
+            description: This is the new primary key
+            data_type: int
