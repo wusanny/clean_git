@@ -1,1 +1,1 @@
-select * from {{ ref('x_project', 'bar') }}
+select 1 as id
