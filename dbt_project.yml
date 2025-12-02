@@ -38,4 +38,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   baba_bobo:
-    mart:
+  +database: "{{ env_var('DBT_DB') }}"

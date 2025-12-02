@@ -1,0 +1,9 @@
+selectors:
+  - name: sanny_select
+    description: "Select a model"
+    definition:
+      union:
+        - method: fqn
+          value: foo
+        - exclude:
+          - test_name: is_even

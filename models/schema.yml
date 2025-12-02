@@ -1,0 +1,16 @@
+models:
+  - name: foo
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+
+
+  - name: michi
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+          - is_even
