@@ -37,6 +37,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  baba_bobo:
-  +database: "{{ env_var('DBT_DB') }}"
-  +schema: WUT
+  +baba_bobo:
+    +database: "{{ env_var('DBT_DB') }}"
+    +schema: WUT
