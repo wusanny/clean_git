@@ -1,9 +1,0 @@
-  snapshots:
-  - name: snappy
-    relation: ref('foo')
-    config:
-      strategy: check      
-      unique_key: [id]
-      check_cols: ['id']
-      dbt_valid_to_current: "to_date('9999-12-31')"
-      hard_deletes: ignore
