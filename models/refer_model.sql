@@ -1,1 +1,1 @@
-select * from {{ ref("michi") }}
+select 1 as refer
