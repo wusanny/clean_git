@@ -1,1 +1,1 @@
-select * from {{ source ("jaffle_shop" , "customers" )}}
+select 5 as gf
