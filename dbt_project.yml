@@ -25,6 +25,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 
 
+>>>>>>> a9a7deafe032c31a6eadb5ea1b40e9a27a58db1f
+
+
+
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
@@ -36,4 +40,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  +baba_bobo:
+  baba_bobo:
+
