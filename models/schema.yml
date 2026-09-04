@@ -5,6 +5,9 @@ models:
         data_tests:
           - unique
           - not_null
+    config:
+      grants:
+        select: ['transformer']
 
 
   - name: michi
