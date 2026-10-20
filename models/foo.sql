@@ -1,8 +1,10 @@
 {{
     config(
-        materialized="table",
-        persist_docs={"relation": true, "columns": true}
-    
+        materialized="view",
+        grants={
+          'SELECT': ['loader','public']
+        }
+
     )
 }}
 

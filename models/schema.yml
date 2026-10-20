@@ -1,8 +1,0 @@
-models:
-  - name: foo
-    columns:
-      - name: id
-      - name: customer_name
-      - name: address
-      - name: dob
-      - name: some_number
