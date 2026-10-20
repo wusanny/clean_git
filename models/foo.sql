@@ -2,7 +2,7 @@
     config(
         materialized="view",
         grants={
-          'SELECT': ['loader']
+          'SELECT': ['loader', 'public']
         }
 
     )
