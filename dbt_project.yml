@@ -26,6 +26,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 # dbt_project.yml
 
+on-run-end:
+  - "{{ dbt_artifacts.upload_results(results) }}"
 
 
 
